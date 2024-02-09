@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="id">
+      <form name="travel">
+        <input type="text" name="firstName" placeholder="First Name" required />
+        <input type="text" name="lastName" placeholder="Last Name" required />
+        <input type="number" name="age" placeholder="Age" required />
+        <input type="radio" name="gender" value="Male" />
+        <label for="male">Male</label>
+        <input type="radio" name="gender" value="Female" />
+        <label for="female">Female</label>
+
+        <label for="flights">flights</label>
+        <select name="city" id="flights">
+          <option value="Florida">Ft myers,FLA</option>
+          <option value="Salt Lake">SLC, Ut</option>
+          <option value="Pensylvannia">Dalas,texas</option>
+        </select>
+        <input type="checkbox" id="vegan" name="diet" value="Meatless" />
+        <label for="vegan">Meat free</label>
+        <input type="checkbox" id="Lacotose" name="diet" value="Lacotose free" />
+        <label for="Lacotose">Dairy free</label>
+        <input type="checkbox" id="kosher" name="diet" value="Kosher" />
+        <label for="kosher">Kosher</label>
+        <input type="checkbox" name="diet" id="nutt">
+        <label for="nutt">Nuttless</label>
+        <!-- <select name="diet" id="">
+                <option value="Kosher">Kosher</option>
+                <option value="Vegetarian">Meatless</option>
+                <option value="Carnivore">Bring on the meat</option>
+            </select> -->
+
+        <button>Submit</button>
+      </form>
+    </div>
+
+    <script src="/index.js"></script>
+  </body>
+</html>
