@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <!--### **Project Requirements**
+
+The website must contain the following:
+
+- A list displaying each baddie by type. Each list item must:
+- Have baddie image
+- Have baddie name
+- Show price of that baddie
+- Have an input box to enter the total caught of that type
+- A total price at the bottom that adds sums the total cost of baddies caught
+- *(must use JavaScript for this math - no hard coded values)*
+- A footer showing:
+- Mario's email address
+- Mario's company website URL
+- Mario's physical address
+- A large title at the top of the page entitled "Mario Pest Control"-->
+
+    <h1>Mario Pest Control</h1>
+    <h4 id="result"></h4>
+    <div class="container">
+      <form action="" name="myForm" class="form">
+        <ol>
+          <li>
+            <h3>Goomba</h3>
+            <p class="pest">Price per kill: <span>5 gold coins</span></p>
+            <img class="goombaPic img" src="/assets/gomba.png" alt="" />
+            <input type="number" name="goomba" placeholder="Goomba kills" />
+          </li>
+
+          <li>
+            <h3>Bob-omb</h3>
+            <p class="pest">Price per kill: <span>7 gold coins</span></p>
+            <img class="bombPic img" src="/assets/Bob-omb_Fall.png" alt="" />
+            <input type="number" name="bomb" placeholder="Bomb kills" />
+          </li>
+
+          <li>
+            <h3>Cheep Cheep</h3>
+            <p class="pest">Price per kill: <span>11 gold coins</span></p>
+            <img class="cheepPic img" src="/assets/Cheep-Cheep_cool.png" alt="" />
+            <input type="number" name="cheep" placeholder="cheep cheep kills" />
+          </li>
+        </ol>
+        <button class="button">Submit</button>
+      </form>
+    </div>
+
+    <footer id="footer">
+      <a href="#"> <p>Mario@PestControl.co</p></a>
+      <a href="#"> <p>Located on 123 Royal Peach road</p></a>
+      <a href="#"> <p>wwww.MarioTakesEmOut.com</p></a>
+    </footer>
+
+    <script src="/index.js"></script>
+  </body>
+</html>
