@@ -127,7 +127,7 @@ const namesOnly = [
 
     function elementCreator(arrayOfObjects){
          return arrayOfObjects.map(function(object ){
-          return `<h1>${object.name}<h1>  <h2>${object.age}<h2>`
+          return `<h1>${object.name}</h1>  <h2>${object.age}</h2>`
          })
     }
 
