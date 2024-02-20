@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color:#FFF1DC ;
+}
+
+.container{
+    text-align: center;
+   display: grid;
+   grid-template-columns: repeat(12,1fr);
+   grid-template-rows: repeat(8,50px);
+}
+.box{
+    transition: background-color 1s linear 1s, width 1s linear;
+    border: solid #FFACAC  10px;
+}
+
+.box1{
+    
+    grid-column: 4/4;
+    grid-row:4 ;
+    background-color: aquamarine;
+    height: 200px;
+    width: 200px;
+}
+.box1:hover{
+   
+    background-color: yellow;
+    width: 400px;
+}
+
+
+.box2{
+    transition: all 0.8 ease;
+    grid-column: 5/5;
+    grid-row: 4;
+    background-color: aquamarine;
+    height: 200px;
+    width: 200px;
+}
+.box2:hover{
+   
+    background-color: rgb(40, 40, 187);
+    width: 600px;
+}
+
+.box3{
+    grid-column: 6/6;
+    grid-row: 4;
+    background-color: aquamarine;
+    height: 200px;
+    width: 200px;
+}
+.box3:hover{
+    transition: all 0.2 ease;
+    background-color: greenyellow;
+    width: 800px;
+    height: 150px;
+}
+
+.box4{
+    grid-column: 7/7;
+    grid-row: 4;
+    background-color: aquamarine;
+    height: 200px;
+    width: 200px;
+}
+.box4:hover{
+   
+    background-color: blue;
+    width: 400px;
+    border: solid red 10px;
+}
+
+.box5{
+    grid-column:8/8;
+    grid-row: 4;
+    background-color: aquamarine;
+    height: 200px;
+    width: 200px;
+}
+.box5:hover{
+    
+    background-color:#FFD966;
+    width: 100px;
+}
+
+.box6{
+  
+    grid-column: 9/9;
+    grid-row: 4;
+    background-color: aquamarine;
+    height: 200px;
+    width: 200px;
+}
+.box6:hover{
+    position:relative;
+    opacity: 1;
+    background-color: #FFACAC;
+    width: 400px;
+}
