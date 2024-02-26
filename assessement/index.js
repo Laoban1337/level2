@@ -24,3 +24,13 @@
 // //saving the result into a const
 // const convertedStrings = convertToUppercase(strings);
 // console.log(convertedStrings);
+
+// Write a function that takes an array of numbers and returns a new array containing only the even numbers.
+const numbers = [1, 2, 3, 4, 5, 6];
+
+function filterEvenNumbers(numbers) {
+    return numbers.filter((number) => number % 2 ===0)
+   
+
+}
+ console.log(filterEvenNumbers(numbers));
