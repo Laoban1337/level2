@@ -1,0 +1,146 @@
+{
+    "Menu": [
+        {
+            "Appetizers": [
+                {
+                    "name": "Hot wings",
+                    "ingredients": [
+                        "Chicken wings",
+                        "Buffalo Sauce",
+                        "celery"
+                    ],
+                    "description": "Baked wings tossed in Buffalo Sauce, garnished with celery"
+                },
+                {
+                    "name": "Potstickers",
+                    "ingredients": [
+                        "Pork(or Chicken)",
+                        "Rice paper",
+                        "Bak-Choy"
+                    ],
+                    "description": "Potstckers in thai peanut sauce"
+                },
+                {
+                    "name": "ChickenStik",
+                    "ingredients": [
+                        "Chicken ",
+                        "Bacon Ballz",
+                        "Havarti"
+                    ],
+                    "description": "Boneless wings cramed on a stik with bacon ballz(tm) and Havarti cubes Battered and Deepfried"
+                }
+            ],
+            "Cold-Sandwhiches": [
+                {
+                    "name": "HammyLover",
+                    "ingredients": [
+                        "Smoked Ham",
+                        "Smoked Gouda",
+                        "Priscuto"
+                    ],
+                    "description": "Ham and cheese lovers dream"
+                },
+                {
+                    "name": "PB&J ",
+                    "ingredients": [
+                        "Peanut Butter",
+                        "Bread",
+                        "Vegan-jelly"
+                    ],
+                    "description": "PB&J simple, classic... Timeless"
+                },
+                {
+                    "name": "Cold-Turkey",
+                    "ingredients": [
+                        "Smoked Turkey Breast",
+                        "Bitchin Sauce",
+                        "Cheese",
+                        "Stuffing",
+                        "Cranberries"
+                    ],
+                    "description": "Thanksgiving hangover food"
+                }
+            ],
+            "Hot-sandwhiches": [
+                {
+                    "name": "Uncle Phil",
+                    "ingredients": [
+                        "Steak",
+                        "Peppers",
+                        "chese sauce",
+                        "Grilled onions"
+                    ],
+                    "description": "Philly Cheese steak done the Phily way... No twists"
+                },
+                {
+                    "name": "Patty Melt",
+                    "ingredients": [
+                        "Burger patty ",
+                        "Grilled onions",
+                        "American cheese"
+                    ],
+                    "description": "Patty melt"
+                },
+                {
+                    "name": "Hot-wings sammy",
+                    "ingredients": [
+                        "Chicken wings",
+                        "Buffalo Sauce",
+                        "Cheese"
+                    ],
+                    "description": "Baked wings(debonned and tossed in Buffalo Sauce), On a Butttered Chibata"
+                }
+            ],
+            "Deserts": [
+                {
+                    "name": "Moochi",
+                    "ingredients": [
+                        "Icecream",
+                        "Soy-Paper"
+                    ],
+                    "description": "Frozen Icecream Wrapped in soy Paper"
+                },
+                {
+                    "name": "CheeseCake",
+                    "ingredients": [
+                        "Cream cheese",
+                        "Grahamcracker"
+                    ],
+                    "description": "CheeseCake... The best infact"
+                },
+                {
+                    "name": "Figgy Pudding",
+                    "ingredients": [
+                        "Figs"
+                    ],
+                    "description": "Like Grandma used to make"
+                }
+            ],
+            "Drinks": [
+                {
+                    "name": "Tea",
+                    "ingredients": [
+                        "Tea Leaves",
+                        "water"
+                    ],
+                    "description": "Great Green Tea!"
+                },
+                {
+                    "name": "Fountain drinks",
+                    "ingredients": [
+                        "Soda Water",
+                        "Soda Syrup"
+                    ],
+                    "description": "Both Coke and Pepsi products"
+                },
+                {
+                    "name": "Water Bar",
+                    "ingredients": [
+                        "H20"
+                    ],
+                    "description": "Water from all over "
+                }
+            ]
+        }
+    ]
+}
