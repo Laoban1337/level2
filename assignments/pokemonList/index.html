@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script>
+        //gets pokemon Data via get request using axios
+      function getPokeData() {
+        axios
+          .get("https://api.vschool.io/pokemon")
+          .then((response) =>displayPokeData(response.data.objects[0].pokemon))
+     
+
+          .catch((err) => console.log("There was an error: " + err));
+      }
+        // loops over the array of pokemon, creating an h1 for each item in the array then appends it to the dom
+      function displayPokeData(array) {
+        array.forEach((pokemon) => {
+          const h1 = document.createElement("h1");
+          h1.textContent = pokemon.name;
+          document.body.appendChild(h1);
+        });
+      }
+
+      getPokeData();
+    </script>
+  </body>
+</html>
